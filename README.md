@@ -1,16 +1,16 @@
 # PHÁT TRIỂN ỨNG DỤNG AI TRONG XÂY DỰNG WEBSITE CÔN TRÙNG
 InsectDatabaseWebsite
 
-**📋 Giới thiệu**
+**📋 GIỚI THIỆU**
 InsectDatabaseWebsite là một hệ thống web toàn diện được phát triển với mục tiêu trở thành nền tảng tra cứu, nhận dạng và quản lý thông tin về côn trùng, đặc biệt tập trung vào các loài gây hại trong nông nghiệp. Hệ thống kết hợp trí tuệ nhân tạo (AI) và hệ thống thông tin địa lý (GIS) để cung cấp giải pháp quản lý dịch hại thông minh.
 
-**🎯 Mục tiêu chính**
+**🎯 MỤC TIÊU CHÍNH**
 Xây dựng cơ sở dữ liệu không gian-thời gian về côn trùng
 Phát triển module bản đồ phân bố tương tác
 Triển khai cơ chế đóng góp thông tin từ cộng đồng
 Ứng dụng AI (YOLO) cho nhận dạng hình ảnh côn trùng
 
-**✨ Tính năng nổi bật**
+**✨ TÍNH NĂNG NỔI BẬT**
 _🔍 Tra cứu và nhận dạng_
 Tra cứu thông tin 102 loài côn trùng từ bộ dữ liệu IP102
 Nhận dạng tự động bằng AI (YOLOv11) qua hình ảnh tải lên
@@ -28,7 +28,7 @@ Người dùng phổ thông: Tra cứu, đóng góp thông tin
 Chuyên gia (CV): Xét duyệt đóng góp, quản lý dữ liệu
 Quản trị viên (Admin): Quản lý hệ thống, chấp nhận đề xuất cuối cùng
 
-**🛠️ Công nghệ sử dụng**
+**🛠️ CÔNG NGHỆ SỬ DỤNG**
 _Backend_
 Framework: Django 4.2+
 Ngôn ngữ: Python 3.8+
@@ -44,14 +44,14 @@ Xử lý ảnh: OpenCV, Pillow
 Phân tích dữ liệu: FiftyOne cho đánh giá dataset
 Quản lý môi trường: Virtual Environment
 
-**🚀 Cài đặt và triển khai**
+**🚀 CÀI ĐẶT VÀ TRIỂN KHAI**
 cd InsectDatabaseWebsite
 
 _Tạo và kích hoạt môi trường ảo_
 python -m venv venv
-# Windows
+Windows
 venv\Scripts\activate
-# Linux/Mac
+Linux/Mac
 source venv/bin/activate
 
 _Cài đặt dependencies_
@@ -71,7 +71,7 @@ python manage.py migrate
 _Khởi động server_
 python manage.py runserver
 
-**👥 Tác giả**
+**👥 TÁC GIẢ**
 PGS.TS Đoàn Thanh Nghị - Giảng viên hướng dẫn
 Nguyễn Hồng Tâm Như - Sinh viên thực hiện
 Đơn vị: Trường Đại học An Giang - Khoa Công nghệ Thông tin
